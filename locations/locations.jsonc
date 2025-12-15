@@ -1,0 +1,291 @@
+[
+  {
+    "name": "Paseo",
+    "map_locations": [{ "map": "mota", "x": 1132, "y": 846 }],
+    "sections": [
+      { "name": "Governor", "item_count": 1, "access_rules": ["Recorder"] }
+    ]
+  },
+  {
+    "name": "Shure",
+    "map_locations": [{ "map": "mota", "x": 2058, "y": 330 }],
+    "sections": [
+      { "name": "40 meseta", "item_count": 1 },
+      { "name": "Dimate", "item_count": 1 },
+      { "name": "Headgear", "item_count": 1 },
+      { "name": "200 meseta", "item_count": 1 },
+      { "name": "Sil Ribbon", "item_count": 1 },
+      { "name": "Small Key (Corpse)", "item_count": 1 },
+      { "name": "Letter (Corpse)", "item_count": 1 },
+      {
+        "name": "Monomate (Locked)",
+        "item_count": 1,
+        "access_rules": ["SmallKey"]
+      },
+      {
+        "name": "150 meseta (Locked)",
+        "item_count": 1,
+        "access_rules": ["SmallKey"]
+      },
+      {
+        "name": "Dynamite (Locked)",
+        "item_count": 1,
+        "access_rules": ["SmallKey"]
+      },
+      {
+        "name": "Dynamite 2 (Locked)",
+        "item_count": 1,
+        "access_rules": ["SmallKey"]
+      }
+    ]
+  },
+  {
+    "name": "Nido",
+    "access_rules": ["Dynamite:1"],
+    "map_locations": [{ "map": "mota", "x": 1900, "y": 878 }],
+    "sections": [
+      { "name": "20 meseta", "item_count": 1 },
+      { "name": "100 meseta", "item_count": 1 },
+      { "name": "Dimate", "item_count": 1 },
+      { "name": "Trimate", "item_count": 1 },
+      { "name": "60 meseta", "item_count": 1 },
+      { "name": "Teim", "item_count": 1, "access_rules": ["Letter"] }
+    ]
+  },
+  {
+    "name": "Oputa",
+    "access_rules": ["Teim", "JetScooterFlag"],
+    "map_locations": [{ "map": "mota", "x": 876, "y": 586 }],
+    "sections": [{ "name": "Ustvestia", "hosted_item": "MusikFlag" }]
+  },
+  {
+    "name": "Bio-Systems Lab",
+    "access_rules": ["Dynamite:2,Teim", "Dynamite:2,JetScooterFlag"],
+    "map_locations": [{ "map": "mota", "x": 524, "y": 878 }],
+    "sections": [
+      { "name": "Antidote 2", "item_count": 1 },
+      { "name": "Scalpel", "item_count": 1 },
+      { "name": "Star Mist", "item_count": 1 },
+      { "name": "Dynamite", "item_count": 1 },
+      { "name": "Trimate", "item_count": 1, "access_rules": ["Dynamite:3"] },
+      { "name": "Antidote", "item_count": 1, "access_rules": ["Dynamite:3"] },
+      { "name": "PoisonShot", "item_count": 1, "access_rules": ["Dynamite:3"] },
+      { "name": "Console", "item_count": 1, "access_rules": ["Dynamite:3"] }
+    ]
+  },
+  {
+    "name": "Kueri",
+    "access_rules": ["Teim,KeyTube", "JetScooterFlag"],
+    "map_locations": [{ "map": "mota", "x": 558, "y": 1294 }],
+    "sections": [
+      { "name": "Researcher", "item_count": 1, "access_rules": ["MarueraLeaf"] }
+    ]
+  },
+  {
+    "name": "Roron",
+    "access_rules": ["Teim,KeyTube", "JetScooterFlag"],
+    "map_locations": [{ "map": "mota", "x": 1420, "y": 1838 }],
+    "sections": [
+      { "name": "Garbage", "item_count": 1 },
+      { "name": "Garbage 2", "item_count": 1 },
+      { "name": "Ceram Bar", "item_count": 1 },
+      { "name": "Garbage 3", "item_count": 1 },
+      { "name": "Cannon", "item_count": 1 },
+      { "name": "Garbage 4", "item_count": 1 },
+      { "name": "Motavian", "item_count": 1 }
+    ]
+  },
+  {
+    "name": "Piata",
+    "access_rules": [
+      "Teim,KeyTube,MusikFlag,NeifirstFlag",
+      "JetScooterFlag,MusikFlag,NeifirstFlag"
+    ],
+    "map_locations": [{ "map": "mota", "x": 1420, "y": 1228 }],
+    "sections": [
+      { "name": "Green Console", "item_count": 1 },
+      { "name": "Blue Console", "item_count": 1 },
+      { "name": "Yellow Console", "item_count": 1 },
+      { "name": "Red Console", "item_count": 1 }
+    ]
+  },
+  {
+    "name": "Uzo",
+    "access_rules": ["JetScooterFlag"],
+    "map_locations": [{ "map": "mota", "x": 2806, "y": 1498 }],
+    "sections": [{ "name": "Maruera Tree", "item_count": 1 }]
+  },
+  {
+    "name": "Climatrol",
+    "access_rules": ["JetScooterFlag,MarueraGum"],
+    "map_locations": [{ "map": "mota", "x": 2522, "y": 142 }],
+    "sections": [
+      { "name": "Jwl Ribbon", "item_count": 1 },
+      { "name": "FiberVest", "item_count": 1 },
+      { "name": "KnifeBoots", "item_count": 1 },
+      { "name": "Sil Ribbon", "item_count": 1 },
+      { "name": "Sandals", "item_count": 1 },
+      { "name": "Laser Bar", "item_count": 1 },
+      { "name": "Ceram Bar", "item_count": 1 },
+      { "name": "Neifirst", "hosted_item": "NeifirstFlag" }
+    ]
+  },
+  {
+    "name": "Yellow Dam",
+    "access_rules": ["JetScooterFlag,YellowCard"],
+    "map_locations": [{ "map": "mota", "x": 692, "y": 974 }],
+    "sections": [
+      { "name": "Escapipe", "item_count": 1 },
+      { "name": "Crystanish", "item_count": 1 },
+      { "name": "CrystCape", "item_count": 1 },
+      { "name": "CrystChest", "item_count": 1 },
+      { "name": "Amber", "item_count": 1 },
+      { "name": "Console", "hosted_item": "YellowDamFlag" }
+    ]
+  },
+  {
+    "name": "Red Dam",
+    "access_rules": ["JetScooterFlag,RedCard"],
+    "map_locations": [{ "map": "mota", "x": 1260, "y": 1226 }],
+    "sections": [
+      { "name": "Swd of Ang", "item_count": 1 },
+      { "name": "Fire Slshr", "item_count": 1 },
+      { "name": "Fire Staff", "item_count": 1 },
+      { "name": "Console", "hosted_item": "RedDamFlag" }
+    ]
+  },
+  {
+    "name": "Blue Dam",
+    "access_rules": ["JetScooterFlag,BlueCard"],
+    "map_locations": [{ "map": "mota", "x": 1410, "y": 974 }],
+    "sections": [
+      { "name": "Antidote", "item_count": 1 },
+      { "name": "CresceGear", "item_count": 1 },
+      { "name": "Snow Crown", "item_count": 1 },
+      { "name": "Star Mist", "item_count": 1 },
+      { "name": "Wind Scarf", "item_count": 1 },
+      { "name": "ColorScarf", "item_count": 1 },
+      { "name": "Trimate", "item_count": 1 },
+      { "name": "Storm Gear", "item_count": 1 },
+      { "name": "Console", "hosted_item": "BlueDamFlag" }
+    ]
+  },
+  {
+    "name": "Green Dam",
+    "access_rules": ["JetScooterFlag,GreenCard"],
+    "map_locations": [{ "map": "mota", "x": 1004, "y": 660 }],
+    "sections": [
+      { "name": "Star Mist", "item_count": 1 },
+      { "name": "Aegis", "item_count": 1 },
+      { "name": "Telepipe", "item_count": 1 },
+      { "name": "Gr Sleeves", "item_count": 1 },
+      { "name": "Truth Slvs", "item_count": 1 },
+      { "name": "Console", "hosted_item": "GreenDamFlag" }
+    ]
+  },
+  {
+    "name": "Gaira",
+    "access_rules": ["RedDamFlag,YellowDamFlag,BlueDamFlag,GreenDamFlag"],
+    "map_locations": [{ "map": "mota", "x": 0, "y": 0 }],
+    "sections": [{ "name": "Console", "item_count": 1 }]
+  },
+  {
+    "name": "Dezo",
+    "access_rules": ["SpaceshipFlag"],
+    "children": [
+      {
+        "name": "Skure",
+        "map_locations": [{ "map": "dezo", "x": 926, "y": 1266 }],
+        "sections": [
+          { "name": "15000 meseta", "item_count": 1 },
+          { "name": "Mogic Cap", "item_count": 1 },
+          { "name": "18000 meseta", "item_count": 1 },
+          { "name": "Magic Cap", "item_count": 1 },
+          { "name": "7800 meseta", "item_count": 1 },
+          { "name": "LaconChest", "item_count": 1 },
+          { "name": "5600 meseta", "item_count": 1 },
+          { "name": "GardaBoots", "item_count": 1 },
+          { "name": "8600 meseta", "item_count": 1 },
+          { "name": "Magic Cap 2", "item_count": 1 },
+          { "name": "12000 meseta", "item_count": 1 },
+          { "name": "6400 meseta", "item_count": 1 }
+        ]
+      },
+      {
+        "name": "Esper Mansion",
+        "map_locations": [{ "map": "dezo", "x": 128, "y": 850 }],
+        "sections": [
+          { "name": "Prism", "item_count": 1 },
+          {
+            "name": "NeiSword",
+            "item_count": 1,
+            "access_rules": [
+              "NeiArmor,NeiCape,NeiCrown,NeiEmel,NeiMet,NeiShield,NeiShot,NeiSlasher"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Naval",
+        "access_rules": ["Prism"],
+        "map_locations": [{ "map": "dezo", "x": 508, "y": 1898 }],
+        "sections": [
+          { "name": "NeiShield", "item_count": 1 },
+          { "name": "NeiEmel", "item_count": 1 },
+          { "name": "Truth Slvs", "item_count": 1 },
+          { "name": "Trimate", "item_count": 1 },
+          { "name": "Mir Emel", "item_count": 1 },
+          { "name": "Lacon Emel", "item_count": 1 },
+          { "name": "Gr Sleeves", "item_count": 1 }
+        ]
+      },
+      {
+        "name": "Menobe",
+        "access_rules": ["Prism"],
+        "map_locations": [{ "map": "dezo", "x": 700, "y": 84 }],
+        "sections": [
+          { "name": "NeiCrown", "item_count": 1 },
+          { "name": "Storm Gear", "item_count": 1 },
+          { "name": "NeiMet", "item_count": 1 },
+          { "name": "ColorScarf", "item_count": 1 }
+        ]
+      },
+      {
+        "name": "Ikuto",
+        "access_rules": ["Prism"],
+        "map_locations": [{ "map": "dezo", "x": 1404, "y": 116 }],
+        "sections": [
+          { "name": "NeiSlasher", "item_count": 1 },
+          { "name": "NeiShot", "item_count": 1 },
+          { "name": "Fire Staff", "item_count": 1 },
+          { "name": "Lacn Mace", "item_count": 1 },
+          { "name": "Pls Cannon", "item_count": 1 },
+          { "name": "Lac Dagger", "item_count": 1 }
+        ]
+      },
+      {
+        "name": "Guaron",
+        "access_rules": ["Prism"],
+        "map_locations": [{ "map": "dezo", "x": 1822, "y": 980 }],
+        "sections": [
+          { "name": "Amber Robe", "item_count": 1 },
+          { "name": "Laconinish", "item_count": 1 },
+          { "name": "CrystChest", "item_count": 1 },
+          { "name": "NeiCape", "item_count": 1 },
+          { "name": "CrystCape", "item_count": 1 },
+          { "name": "NeiArmor", "item_count": 1 }
+        ]
+      },
+      {
+        "name": "Noah",
+        "access_rules": [
+          "NeiArmor,NeiCape,NeiCrown,NeiEmel,NeiMet,NeiShield,NeiShot,NeiSlasher"
+        ],
+        "map_locations": [{ "map": "dezo", "x": 0, "y": 0 }],
+        "sections": [
+          { "name": "Mother Brain", "hosted_item": "WinTheGameFlag" }
+        ]
+      }
+    ]
+  }
+]

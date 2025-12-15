@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Small Key",
+    "type": "toggle",
+    "img": "images/items/small_key.png",
+    "codes": "SmallKey"
+  },
+  {
+    "name": "Dynamite",
+    "type": "consumable",
+    "max_quantity": 3,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "img": "images/items/dynamite.png",
+    "codes": "Dynamite"
+  },
+  {
+    "name": "Key Tube",
+    "type": "toggle",
+    "img": "images/items/key_tube.png",
+    "codes": "KeyTube"
+  },
+  {
+    "name": "Maruera Gum",
+    "type": "toggle",
+    "img": "images/items/maruera_gum.png",
+    "codes": "MarueraGum"
+  },
+  {
+    "name": "Green Card",
+    "type": "toggle",
+    "img": "images/items/green_card.png",
+    "codes": "GreenCard"
+  },
+  {
+    "name": "Blue Card",
+    "type": "toggle",
+    "img": "images/items/blue_card.png",
+    "codes": "BlueCard"
+  },
+  {
+    "name": "Yellow Card",
+    "type": "toggle",
+    "img": "images/items/yellow_card.png",
+    "codes": "YellowCard"
+  },
+  {
+    "name": "Red Card",
+    "type": "toggle",
+    "img": "images/items/red_card.png",
+    "codes": "RedCard"
+  },
+  {
+    "name": "Letter",
+    "type": "toggle",
+    "img": "images/items/letter.png",
+    "codes": "Letter"
+  },
+  {
+    "name": "Recorder",
+    "type": "toggle",
+    "img": "images/items/recorder.png",
+    "codes": "Recorder"
+  },
+  {
+    "name": "Maruera Leaf",
+    "type": "toggle",
+    "img": "images/items/maruera_leaf.png",
+    "codes": "MarueraLeaf"
+  },
+  {
+    "name": "Prism",
+    "type": "toggle",
+    "img": "images/items/prism.png",
+    "codes": "Prism"
+  },
+  {
+    "name": "NeiMet",
+    "type": "toggle",
+    "img": "images/items/neimet.png",
+    "codes": "NeiMet"
+  },
+  {
+    "name": "NeiCrown",
+    "type": "toggle",
+    "img": "images/items/neicrown.png",
+    "codes": "NeiCrown"
+  },
+  {
+    "name": "NeiArmor",
+    "type": "toggle",
+    "img": "images/items/neiarmor.png",
+    "codes": "NeiArmor"
+  },
+  {
+    "name": "NeiCape",
+    "type": "toggle",
+    "img": "images/items/neicape.png",
+    "codes": "NeiCape"
+  },
+  {
+    "name": "NeiShield",
+    "type": "toggle",
+    "img": "images/items/neishield.png",
+    "codes": "NeiShield"
+  },
+  {
+    "name": "NeiEmel",
+    "type": "toggle",
+    "img": "images/items/neiemel.png",
+    "codes": "NeiEmel"
+  },
+  {
+    "name": "NeiSword",
+    "type": "toggle",
+    "img": "images/items/neisword.png",
+    "codes": "NeiSword"
+  },
+  {
+    "name": "NeiSlasher",
+    "type": "toggle",
+    "img": "images/items/neislasher.png",
+    "codes": "NeiSlasher"
+  },
+  {
+    "name": "NeiShot",
+    "type": "toggle",
+    "img": "images/items/neishot.png",
+    "codes": "NeiShot"
+  },
+  {
+    "name": "Teim",
+    "type": "toggle",
+    "img": "images/items/teim.png",
+    "codes": "Teim"
+  },
+  {
+    "name": "Musik",
+    "type": "toggle",
+    "img": "images/items/musik.png",
+    "codes": "MusikFlag"
+  },
+  {
+    "name": "Jet Scooter",
+    "type": "toggle",
+    "img": "images/items/jet_scooter.png",
+    "codes": "JetScooterFlag"
+  },
+  {
+    "name": "Neifirst",
+    "type": "toggle",
+    "img": "images/items/neifirst.png",
+    "codes": "NeifirstFlag"
+  },
+  {
+    "name": "Red Dam Open",
+    "type": "toggle",
+    "img": "images/items/red_dam.png",
+    "codes": "RedDamFlag"
+  },
+  {
+    "name": "Yellow Dam Open",
+    "type": "toggle",
+    "img": "images/items/yellow_dam.png",
+    "codes": "YellowDamFlag"
+  },
+  {
+    "name": "Blue Dam Open",
+    "type": "toggle",
+    "img": "images/items/blue_dam.png",
+    "codes": "BlueDamFlag"
+  },
+  {
+    "name": "Green Dam Open",
+    "type": "toggle",
+    "img": "images/items/green_dam.png",
+    "codes": "GreenDamFlag"
+  },
+  {
+    "name": "Spaceship",
+    "type": "toggle",
+    "img": "images/items/spaceship.png",
+    "codes": "SpaceshipFlag"
+  },
+  {
+    "name": "Win the Game",
+    "type": "toggle",
+    "img": "images/items/mother_brain.png",
+    "codes": "WinTheGameFlag"
+  }
+]
